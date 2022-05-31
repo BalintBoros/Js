@@ -1,0 +1,69 @@
+html 
+{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: 'Secular One', Tahoma, Verdana, sans-serif;
+    background-color: #f8ffcd;
+}
+
+header
+{  
+    margin: auto;
+    background-color: #f5eea5;
+
+    padding: 1vw;
+
+    border-radius: 2vw;
+
+    border-style: solid;
+    border-color: black;
+
+    width: 80%;
+    height: 14vw;
+
+    font-size: 4vw;
+    font-weight: bold;  
+
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+}
+
+a:hover
+{
+    color:rgb(53, 53, 53);
+}
+
+
+.gomb
+{   
+    margin: auto;
+    font-family: 'Secular One', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    
+    background-color: #f5eea5;
+    color: black;
+
+    border-style: solid;
+    border-color: black;
+    border-radius: 0.5vw;
+
+    text-align: center;   
+    
+}
+
+.gomb:hover
+{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+
+
+

@@ -1,0 +1,72 @@
+{
+    "commentid2": {
+        "id": "commentid2",
+        "author": "userid2",
+        "text": "J\u00f3 volt a legut\u00f3bbi meccs!",
+        "teamid": "teamid2",
+        "date": "2021-11-11"
+    },
+    "61df347191dff": {
+        "id": "61df347191dff",
+        "author": "userid2",
+        "text": "Nem rosszak a p\u00e1ly\u00e1n!",
+        "teamid": "teamid4",
+        "date": "2022-01-12"
+    },
+    "61e009fa6c8f3": {
+        "id": "61e009fa6c8f3",
+        "author": "userid2",
+        "text": "J\u00f3zsi vagyok sz\u00e9p \u00e9s laza",
+        "teamid": "teamid3",
+        "date": "2022-01-13"
+    },
+    "61e08c7fb4bc4": {
+        "id": "61e08c7fb4bc4",
+        "author": "userid2",
+        "text": "Ez is egy komment!!",
+        "teamid": "teamid3",
+        "date": "2022-01-13"
+    },
+    "61e091511cd9b": {
+        "id": "61e091511cd9b",
+        "author": "userid2",
+        "text": "menni fog",
+        "teamid": "teamid1",
+        "date": "2022-01-13"
+    },
+    "61e09212be997": {
+        "id": "61e09212be997",
+        "author": "userid2",
+        "text": "kettes csapat",
+        "teamid": "teamid2",
+        "date": "2022-01-13"
+    },
+    "61e09883d7446": {
+        "id": "61e09883d7446",
+        "author": "61e067014d422",
+        "text": "kettes csapat",
+        "teamid": "teamid2",
+        "date": "2022-01-13"
+    },
+    "61e0988e3a5f8": {
+        "id": "61e0988e3a5f8",
+        "author": "61e067014d422",
+        "text": "egy komment",
+        "teamid": "teamid2",
+        "date": "2022-01-13"
+    },
+    "61e09b214123a": {
+        "id": "61e09b214123a",
+        "author": "61e067014d422",
+        "text": "Ez is egy patika csapat!",
+        "teamid": "teamid5",
+        "date": "2022-01-13"
+    },
+    "61e0a6451e98f": {
+        "id": "61e0a6451e98f",
+        "author": "userid1",
+        "text": "Hajr\u00e1 fi\u00fak!",
+        "teamid": "teamid1",
+        "date": "2022-01-13"
+    }
+}

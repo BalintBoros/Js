@@ -1,0 +1,31 @@
+{
+    "teamid1" : {
+        "id" : "teamid1",
+        "name" : "BEAC All Stars",
+        "city" : "Budapest"
+    },
+    "teamid2" : {
+        "id" : "teamid2",
+        "name" : "BEAC U20",
+        "city" : "Szombathely"
+    },
+    "teamid3" : {
+        "id" : "teamid3",
+        "name" : "ELTE Haladás",
+        "city" : "Szombathely"
+    },
+    "teamid4" : {
+        "id" : "teamid4",
+        "name" : "IK FC",
+        "city" : "Budapest"
+    },
+    "teamid5" : {
+        "id" : "teamid5",
+        "name" : "BME MérnökInfó",
+        "city" : "Budapest"
+    }
+}
+
+
+
+
