@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jatek</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <h1>Labirintus</h1>
+  <div id="controls" >
+    Játékosok száma: 
+    <input id = "jatekosok" type="number" value="2" min="1" max="4"> <br>
+    Kincsek száma (/játékos):
+    <input id = "kincsek" type="number" value="2" min="1" max="24/numOfPlayers">
+    
+    <script>
+        players = document.getElementById("jatekosok").value;
+        document.getElementById("kincsek").max = 24/players;
+    </script>
+        
+    <button id="start">Start</button> <br><br>
+    <h2>Játékszabály</h2>
+    <p>A katakomba szobáit egy 7x7-es négyzetrács cellái jelképezik. 
+      Minden szoba esetén adott, hogy mely falain van ajtó. Ha két 
+      szomszédos szoba érintkező falán egy-egy ajtó van, akkor át 
+      lehet menni egyik szobából a másikba. A négyzetrács páros sorait 
+      és oszlopait el lehet tolni, a többi szoba végig rögzített a 
+      játék során. Az eltolásokkal az ajtókon keresztül utak nyílnak a 
+      szobák között, így lehet eljutni a kincsekhez. Mindegyik kérő 
+      arra törekszik, hogy a katakomba szobáinak ötletes eltolásával 
+      eljusson a kincsekhez. Aki elsőként találja meg mindahányat, az 
+      a nyertes.</p>
+         
+</div>
+<div id="game" style="display: none;">
+  <canvas width="450" height="450" ></canvas>
+  
+  <br>
+  <br>
+  <p id = "aktualis">Az aktuális játékos: piros</p>
+  <p id = "fejenkent"></p>
+  Forgatás: 
+  <button id="left">Bal</button>
+  <button id="right">Jobb</button>
+  <button id="noStep">Nem lépek, köszi</button>
+  <br><br><button id="jatek">Játékszabály</button>
+  <button onClick="window.location.href=window.location.href">Új játék</button>
+  <div id="jatekszabaly" style="display: none;">
+    <p>A katakomba szobáit egy 7x7-es négyzetrács cellái jelképezik. 
+      Minden szoba esetén adott, hogy mely falain van ajtó. Ha két 
+      szomszédos szoba érintkező falán egy-egy ajtó van, akkor át 
+      lehet menni egyik szobából a másikba. A négyzetrács páros sorait 
+      és oszlopait el lehet tolni, a többi szoba végig rögzített a 
+      játék során. Az eltolásokkal az ajtókon keresztül utak nyílnak a 
+      szobák között, így lehet eljutni a kincsekhez. Mindegyik kérő 
+      arra törekszik, hogy a katakomba szobáinak ötletes eltolásával 
+      eljusson a kincsekhez. Aki elsőként találja meg mindahányat, az 
+      a nyertes.</p>
+  </div>
+  
+</div>
+
+
+  
+
+
+  <script src="alakzatok.js"></script>
+  <script src="elso_proba.js"></script>
+  
+</body>
+</html>
